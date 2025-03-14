@@ -1,0 +1,244 @@
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container for Profile */
+.profile-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+/* Profile Header */
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-header h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+/* Profile Information Section */
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #3498db;
+}
+
+.profile-details {
+    width: 70%;
+}
+
+.profile-details h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.profile-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-details ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.profile-details a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.profile-details a:hover {
+    text-decoration: underline;
+}
+
+/* Skills Section */
+.skills {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.skills .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list ul li {
+    font-size: 18px;
+    color: #3498db;
+    margin-bottom: 8px;
+}
+
+/* Education Section */
+.education {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.education .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education ul li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.projects .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-card {
+    width: 30%;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card h4 {
+    font-size: 22px;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #34495e;
+    color: #fff;
+    border-radius: 10px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image {
+        margin-bottom: 20px;
+    }
+
+    .project-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .skills, .education, .projects, .contact {
+        padding: 20px;
+    }
+}
+
+
